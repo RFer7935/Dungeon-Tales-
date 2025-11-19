@@ -94,8 +94,12 @@ Contributions, issues, and feature requests are welcome!
 ## 👤 Author
 
 **RFer7935**
+**Harsya1**
+**Abiesyah**
 
 - GitHub: [@RFer7935](https://github.com/RFer7935)
+- Github : [Harsya1](https://github.com/Harsya1)
+- Github: [Abiesyah](https://github.com/AbieSyah)
 
 ## ⭐ Show your support
 
