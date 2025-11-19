@@ -11,12 +11,32 @@ config_version=5
 [application]
 
 config/name="Dungeon Tales Project"
+run/main_scene="uid://bou71h2jbaco"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://scripts/autoload/game_manager.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+SceneManager="*res://scripts/autoload/scene_manager.gd"
 
 [dotnet]
 
 project/assembly_name="Dungeon Tales Project"
+
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/git_bash_here/plugin.cfg")
+
+[plugins]
+
+git_bash_here/shortcut=Resource("uid://df2ve8i42uprp", "res://addons/git_bash_here/git_bash_here_shortcut.tres")
 
 [rendering]
 
